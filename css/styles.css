@@ -205,7 +205,7 @@ body {
 
 /* ======HERO========= */
 .hero {
-  background: var(--praimary-title-color);
+  background-color: var(--praimary-title-color);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -219,17 +219,6 @@ body {
   background-position: center;
   background-size: cover;
   padding: 112px 0;
-}
-@media (min-device-pixel-ratio: 2) and (max-width: 767px),
-  (min-resolution: 192dpi) and (max-width: 767px),
-  (min-resolution: 2dppx) and (max-width: 767px) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero_bg/dark-bg_mobile@x2.jpg);
-  }
 }
 
 .main-title {
@@ -425,13 +414,6 @@ body {
 
 .about-icon {
   display: none;
-  /* align-items: center;
-  justify-content: center;
-  height: 112px;
-  margin-bottom: 8px;
-  background: #f4f4fd;
-  border-radius: 4px;
-  padding: 24px 100px; */
 }
 
 .item-title {
@@ -455,37 +437,26 @@ body {
 
 /*====WHAT WE ARE DOING====== */
 .service {
-  padding-bottom: 120px;
-}
-
-.about-title {
-  margin-bottom: 72px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  text-transform: capitalize;
-  color: var(--praimary-title-color);
-}
-
-.list-images {
-  display: flex;
-  gap: 24px;
+  display: none;
 }
 /*====/WHAT WE ARE DOING====== */
 
 /* =====TEAM===== */
 .team {
-  padding: 120px 0;
+  padding: 96px 82px;
   background: #f4f4fd;
 }
 
 .team-list {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  row-gap: 72px;
+  justify-content: center;
+  align-items: center;
 }
 
 .team-item {
+  max-width: 264px;
   background-color: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -556,7 +527,7 @@ body {
 /* =====CUSTOMERS===== */
 .customers {
   text-align: center;
-  padding: 120px 0;
+  padding: 96px 0;
 }
 
 .customers-title {
@@ -572,13 +543,16 @@ body {
 
 .customers-logos {
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 72px;
+  column-gap: 16px;
   justify-content: center;
-  gap: 24px;
+  align-items: center;
 }
 
 .customers-logos-item {
   display: flex;
-  width: 168px;
+  width: 100%;
   height: 88px;
 }
 

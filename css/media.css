@@ -1,9 +1,21 @@
 /* =====MEDIA======*/
 
+@media (min-device-pixel-ratio: 2) and (max-width: 767px),
+  (min-resolution: 192dpi) and (max-width: 767px),
+  (min-resolution: 2dppx) and (max-width: 767px) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero_bg/dark-bg_mobile@x2.jpg);
+  }
+}
+
 @media screen and (min-width: 768px) {
   /* Hero */
   .hero {
-    background: var(--praimary-title-color);
+    background-color: var(--praimary-title-color);
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -39,7 +51,6 @@
   }
 
   .about-list {
-    /* gap: 72px 24px; */
     row-gap: 72px;
     column-gap: 24px;
     flex-direction: row;
@@ -53,12 +64,41 @@
   .item-title {
     text-align: start;
   }
+  /*====OUR TEAM====*/
+  .team {
+    padding-left: 108px;
+    padding-right: 108px;
+  }
+
+  .team-list {
+    row-gap: 64px;
+    column-gap: 24px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  /*====/OUR TEAM====*/
+
+  /* =====CUSTOMERS===== */
+  .customers {
+    padding: 96px 108px;
+  }
+}
+
+.customers-logos {
+  row-gap: 72px;
+  column-gap: 24px;
+}
+
+.customers-logos-item {
+  width: 168px;
+
+  /* =====/CUSTOMERS===== */
 }
 
 @media screen and (min-width: 1158px) {
   /* HERO */
   .hero {
-    background: var(--praimary-title-color);
+    background-color: var(--praimary-title-color);
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -88,7 +128,8 @@
   .about {
     margin: 0 auto;
     max-width: 1440px;
-    padding: 120px 156px;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
 
   .about-container {
@@ -96,7 +137,7 @@
   }
 
   .about-list {
-    row-gap: 0;
+    max-width: 1128px;
   }
 
   .about-icon {
@@ -122,4 +163,51 @@
   .about-text {
     font-weight: 400;
   }
+  /* /ABOUT */
+
+  /*====WHAT WE ARE DOING====== */
+  .service {
+    display: block;
+    padding-bottom: 120px;
+  }
+
+  .about-title {
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--praimary-title-color);
+  }
+
+  .list-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+
+  /*====/WHAT WE ARE DOING====== */
+
+  /*====OUR TEAM====*/
+  .team {
+    padding: 120px 156px;
+  }
+
+  .team-list {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    row-gap: 0;
+    column-gap: 0;
+    gap: 24px;
+  }
+  /*====/OUR TEAM====*/
+
+  /* =====CUSTOMERS===== */
+  .customers {
+    padding: 120px 156px;
+  }
+
+  /* =====/CUSTOMERS===== */
 }
