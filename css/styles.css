@@ -43,7 +43,7 @@ button {
 }
 
 .container {
-  width: 1158px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -210,26 +210,33 @@ body {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office.jpg);
-  max-width: 1440px;
+    url(../images/hero_bg/dark-bg_mobile@x1.jpg);
+  max-width: 428px;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 188px 0;
+  padding: 112px 0;
 }
-
-.container-hero {
-  align-items: center;
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero_bg/dark-bg_mobile@x2.jpg);
+  }
 }
 
 .main-title {
-  max-width: 496px;
+  max-width: 320px;
   margin: 0 auto;
-  margin-bottom: 48px;
+  margin-bottom: 72px;
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 36px;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
