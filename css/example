@@ -64,9 +64,10 @@
   .item-title {
     text-align: start;
   }
-  /*====TEAM====*/
+  /*====OUR TEAM====*/
   .team {
-    padding: 96px 93px;
+    padding-left: 108px;
+    padding-right: 108px;
   }
 
   .team-list {
@@ -75,7 +76,7 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
-  /*====/TEAM====*/
+  /*====/OUR TEAM====*/
 
   /* =====CUSTOMERS===== */
   .customers {
@@ -192,7 +193,7 @@
 
   /*====OUR TEAM====*/
   .team {
-    padding: 120px 145px;
+    padding: 120px 156px;
   }
 
   .team-list {
@@ -207,7 +208,7 @@
   /* =====CUSTOMERS===== */
 
   .customers {
-    padding: 120px 145px;
+    padding: 120px 156px;
   }
 
   .customers-logos {

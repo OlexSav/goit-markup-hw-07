@@ -542,6 +542,8 @@ body {
 }
 
 .customers-logos {
+  margin: 0 auto;
+  max-width: 396px;
   display: flex;
   flex-wrap: wrap;
   row-gap: 72px;
@@ -552,7 +554,7 @@ body {
 
 .customers-logos-item {
   display: flex;
-  width: 100%;
+  width: 190px;
   height: 88px;
 }
 
