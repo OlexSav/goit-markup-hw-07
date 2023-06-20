@@ -1,5 +1,5 @@
 /* =====MEDIA======*/
-
+/* MEDIA 428 */
 @media (min-device-pixel-ratio: 2) and (max-width: 767px),
   (min-resolution: 192dpi) and (max-width: 767px),
   (min-resolution: 2dppx) and (max-width: 767px) {
@@ -11,7 +11,7 @@
       url(../images/hero_bg/dark-bg_mobile@x2.jpg);
   }
 }
-
+/* MEDIA 768 */
 @media screen and (min-width: 768px) {
   /* Hero */
   .hero {
@@ -91,10 +91,54 @@
   .customers-logos-item {
     width: 168px;
   }
+
+  /* =====/CUSTOMERS===== */
+
+  /* ====Footer==== */
+
+  .footer-container {
+    max-width: 582px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+
+  .footer-left-side {
+    align-items: start;
+    margin-right: 24px;
+  }
+  .footer-social {
+    margin-right: auto;
+  }
+
+  .footer-form-text {
+    text-align: start;
+  }
+
+  .footer-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    row-gap: 16px;
+  }
+
+  .footer-email-form {
+    width: 264px;
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+
+  .footer-email-form-button {
+    margin: 0 0;
+  }
 }
 
-/* =====/CUSTOMERS===== */
+/* ====/Footer==== */
 
+/* MEDIA 1158 */
 @media screen and (min-width: 1158px) {
   /* HERO */
   .hero {
@@ -220,5 +264,27 @@
   .customers-logos-item {
     min-width: 168px;
   }
+
+  /* =====/CUSTOMERS===== */
+
+  /* ====Footer==== */
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .footer-left-side {
+    align-items: start;
+    margin-right: 120px;
+  }
+
+  .footer-social {
+    margin-right: 80px;
+    margin-bottom: 0;
+  }
+  .footer-form-text {
+    margin-bottom: 0;
+  }
 }
-/* =====/CUSTOMERS===== */
+/* ====/Footer==== */

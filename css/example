@@ -1,5 +1,5 @@
 /* =====MEDIA======*/
-
+/* MEDIA 428 */
 @media (min-device-pixel-ratio: 2) and (max-width: 767px),
   (min-resolution: 192dpi) and (max-width: 767px),
   (min-resolution: 2dppx) and (max-width: 767px) {
@@ -11,7 +11,7 @@
       url(../images/hero_bg/dark-bg_mobile@x2.jpg);
   }
 }
-
+/* MEDIA 768 */
 @media screen and (min-width: 768px) {
   /* Hero */
   .hero {
@@ -64,10 +64,9 @@
   .item-title {
     text-align: start;
   }
-  /*====OUR TEAM====*/
+  /*====TEAM====*/
   .team {
-    padding-left: 108px;
-    padding-right: 108px;
+    padding: 96px 93px;
   }
 
   .team-list {
@@ -76,7 +75,7 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
-  /*====/OUR TEAM====*/
+  /*====/TEAM====*/
 
   /* =====CUSTOMERS===== */
   .customers {
@@ -92,10 +91,59 @@
   .customers-logos-item {
     width: 168px;
   }
+
+  /* =====/CUSTOMERS===== */
+
+  /* ====Footer==== */
+
+  .footer-container {
+    max-width: 582px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+
+  .footer-left-side {
+    /* margin-left: auto; */
+    align-items: start;
+    margin-right: 24px;
+  }
+  .footer-social {
+    /* margin-right: auto; */
+    margin-bottom: 104px;
+  }
 }
 
-/* =====/CUSTOMERS===== */
+.footer-form-text {
+  text-align: start;
+}
 
+.footer-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.footer-form-box {
+  width: 100%;
+}
+
+.footer-email-form {
+  width: 264px;
+  margin-right: 24px;
+  margin-bottom: 0;
+}
+
+.footer-email-form-button {
+  margin: 0 0;
+}
+
+/* ====/Footer==== */
+
+/* MEDIA 1158 */
 @media screen and (min-width: 1158px) {
   /* HERO */
   .hero {
@@ -193,7 +241,7 @@
 
   /*====OUR TEAM====*/
   .team {
-    padding: 120px 156px;
+    padding: 120px 145px;
   }
 
   .team-list {
@@ -208,7 +256,7 @@
   /* =====CUSTOMERS===== */
 
   .customers {
-    padding: 120px 156px;
+    padding: 120px 145px;
   }
 
   .customers-logos {
@@ -223,3 +271,7 @@
   }
 }
 /* =====/CUSTOMERS===== */
+
+/* ====Footer==== */
+
+/* ====/Footer==== */
