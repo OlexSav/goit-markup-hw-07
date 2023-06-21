@@ -134,9 +134,16 @@
   .footer-email-form-button {
     margin: 0 0;
   }
-}
 
-/* ====/Footer==== */
+  /* ====/Footer==== */
+
+  /* ====MODAL==== */
+  .modal {
+    max-width: 408px;
+    padding: 72px 24px 24px 24px;
+    width: calc(100% - 48px);
+  }
+}
 
 /* MEDIA 1158 */
 @media screen and (min-width: 1158px) {
@@ -268,12 +275,17 @@
   /* =====/CUSTOMERS===== */
 
   /* ====Footer==== */
+  .footer {
+    padding: 96px 0;
+  }
+
   .footer-container {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: baseline;
   }
+
   .footer-left-side {
     align-items: start;
     margin-right: 120px;
@@ -283,7 +295,8 @@
     margin-right: 80px;
     margin-bottom: 0;
   }
-  .footer-form-text {
+
+  .footer-text {
     margin-bottom: 0;
   }
 }

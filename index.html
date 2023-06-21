@@ -20,7 +20,7 @@
   </head>
   <body>
     <!-- HEADER -->
-    <!-- <header class="header">
+    <header class="header">
       <div class="container page-header-container">
         <nav class="navigation">
           <a class="logo link" href="./index.html"
@@ -38,6 +38,11 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="mobile-menu-open" .js-open-menu>
+          <svg class="mobile-menu-open-btn" width="32" height="22">
+            <use href="./images/icons.svg#icon-burger_open"></use>
+          </svg>
+        </button>
         <address class="contacts">
           <ul class="contacts-items list">
             <li class="contacts-item">
@@ -53,10 +58,42 @@
           </ul>
         </address>
       </div>
-    </header> -->
+      <div class="mobile-menu" .js-menu-container>
+        <div class="mobile-menu-container container">
+          <button type="button" class="mobile-menu-close-btn" .js-close-menu>
+            <svg class="mobile-menu-close-btn-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-cross"></use>
+            </svg>
+          </button>
+          <ul class="modal-menu list">
+            <li class="menu-item">
+              <a class="menu-link link current" href="./index.html">Studio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Contacts</a>
+            </li>
+          </ul>
+          <ul class="madal-contacts-items list">
+            <li class="contacts-item">
+              <a class="mailtel link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contacts-item">
+              <a class="mailtel link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
 
     <!-- HERO -->
-    <main>
+    <!-- <main>
       <section class="hero">
         <div class="container container-hero">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
@@ -64,10 +101,10 @@
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
 
-      <!-- ABOUT -->
-      <section class="about">
+    <!-- ABOUT -->
+    <!-- <section class="about">
         <div class="about-container container">
           <h2 class="visually-hidden">ABOUT</h2>
           <ul class="about-list list">
@@ -121,9 +158,9 @@
             </li>
           </ul>
         </div>
-      </section>
-      <!-- What are we doing  -->
-      <section class="service">
+      </section> -->
+    <!-- What are we doing  -->
+    <!-- <section class="service">
         <div class="service-container container">
           <h2 class="about-title">What are we doing</h2>
           <ul class="list-images list">
@@ -153,10 +190,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <!-- TEAM -->
-      <section class="team">
+    <!-- TEAM -->
+    <!-- <section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
@@ -330,10 +367,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <!-- CUSTOMERS -->
-      <section class="customers">
+    <!-- CUSTOMERS -->
+    <!-- <section class="customers">
         <div class="customers-container container">
           <h2 class="customers-title">Customers</h2>
           <ul class="customers-logos list">
@@ -382,10 +419,10 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
 
     <!-- FOOTER -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer-container container">
         <div class="footer-left-side">
           <a class="logo link" href="./index.html"
@@ -450,7 +487,7 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -540,8 +577,9 @@
           <button class="modal-btn" type="submit">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
 
-    <script src="js/modal.js"></script> -->
+    <!-- <script src="js/modal.js"></script> -->
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
