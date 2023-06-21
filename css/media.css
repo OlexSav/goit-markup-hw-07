@@ -323,6 +323,7 @@
   }
   .page-header-container {
     width: calc(100% - 316px);
+    max-width: 1158px;
   }
 
   /*/HEADER */
