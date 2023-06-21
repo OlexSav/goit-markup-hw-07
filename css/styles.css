@@ -77,7 +77,6 @@ body {
 /* =====COMPONENTS===== */
 .logo {
   padding: 24px 0;
-  /* margin-right: 76px; */
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 800;
@@ -133,8 +132,8 @@ body {
 /* TEST */
 /* ======HEADER======== */
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
   border-bottom: var(--border-btn-style);
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -146,11 +145,10 @@ body {
   justify-content: space-between;
 }
 
-/* .header 
-
 .navigation {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .contacts {
@@ -158,14 +156,14 @@ body {
   color: var(--praimary-text-color);
 }
 
-.contacts-items {
+/* .contacts-items {
   display: flex;
   align-items: center;
 }
 
 .contacts-item:not(:last-child) {
   margin-right: 40px;
-}
+} */
 
 .menu {
   display: flex;
@@ -215,7 +213,6 @@ body {
 
 .mailtel {
   display: block;
-  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   color: var(--praimary-text-color);
@@ -225,7 +222,8 @@ body {
 .mailtel:hover,
 .mailtel:focus {
   color: var(--accent-color);
-} */
+}
+*/
 
 /* ======/HEADER======== */
 
