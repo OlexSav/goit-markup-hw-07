@@ -46,6 +46,7 @@
     padding-left: 25px;
     padding-right: 20px;
     padding-bottom: 40px;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
   }
 
   .mobile-menu-close-btn {
@@ -178,7 +179,7 @@
   }
   /* HEADER */
 
-  /* Hero */
+  /* HERO */
   .hero {
     background-color: var(--praimary-title-color);
     background-image: linear-gradient(
@@ -209,6 +210,28 @@
     font-size: 56px;
     line-height: 1.07;
   }
+  /* /HERO */
+
+  /* PORTFOLIO HERO */
+
+  .filter-list {
+    max-width: 100%;
+    flex-wrap: nowrap;
+    margin-bottom: 64px;
+    justify-content: center;
+  }
+
+  .filter {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .filter-btn {
+    padding: 12px 24px;
+  }
+
+  /* /PORTFOLIO HERO */
+
   /* ABOUT */
 
   .about-container {
@@ -355,6 +378,21 @@
   .main-title {
     margin-bottom: 48px;
   }
+  /* /HERO */
+
+  /* PORTFOLIO HERO */
+
+  .filter-list {
+    margin-bottom: 72px;
+  }
+
+  .filter {
+    padding-top: 100px;
+    padding-bottom: 120px;
+  }
+
+  /* /PORTFOLIO HERO */
+
   /* ABOUT */
 
   .about {
@@ -481,4 +519,5 @@
     margin-bottom: 0;
   }
 }
+
 /* ====/Footer==== */
