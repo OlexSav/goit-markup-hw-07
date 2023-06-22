@@ -330,14 +330,17 @@ body {
 
 .products-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
 }
 
 .container-item {
-  width: calc((100%-48) / 3);
-  width: 360px;
-  margin-right: 24px;
-  margin-bottom: 48px;
+  /* width: calc((100%-48) / 3); */
+  /* width: 360px; */
+  /* margin-right: 24px;
+  margin-bottom: 48px; */
   border: var(--border-btn-style);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
