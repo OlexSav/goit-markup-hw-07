@@ -151,6 +151,9 @@
     background-color: var(--accent-color);
     fill: #f4f4fd;
   }
+  .products-image {
+    width: 100%;
+  }
 }
 
 @media (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -228,6 +231,19 @@
 
   .filter-btn {
     padding: 12px 24px;
+  }
+
+  .products-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    row-gap: 72px;
+    gap: 24px;
+  }
+
+  .container-item {
+    width: 356px;
   }
 
   /* /PORTFOLIO HERO */
@@ -389,6 +405,29 @@
   .filter {
     padding-top: 100px;
     padding-bottom: 120px;
+  }
+
+  .products-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  .container-item {
+    /* width: calc((100%-48) / 3);
+    width: 360px; */
+  }
+
+  .container-item:nth-child(3n) {
+    margin-right: 0;
+  }
+
+  .container-item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
   }
 
   /* /PORTFOLIO HERO */
